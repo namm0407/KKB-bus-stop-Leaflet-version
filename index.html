@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/> 
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/ol@v10.3.1/ol.css"
+      type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v10.3.1/dist/ol.js"></script>
+</head>
+
+<body>
+    <h1>KMB Bus Services</h1>
+
+    <div class="search-container">
+        <label for="radius">Find Nearby Bus Stops Within:</label>
+        <select id="radius">
+            <option value="100">100m</option>
+            <option value="200" selected>200m</option>
+            <option value="300">300m</option>
+            <option value="400">400m</option>
+            <option value="500">500m</option>
+        </select>
+        <p>Click on the Stop (Blue words) to get more information</p>
+    </div>
+
+    <!-- <p id="test"></p> -->
+    <p id="busstop"></p>
+    <div id="message"></div>
+    <ul id="bus-stop-list"></ul>
+    <div id="radius"></div>
+    <!-- <ul id="eta-list"></ul> -->
+    </div>
+
+    
+<!--
+    <div id="message"></div>
+        
+    <div id="main-content">
+        <div id="bus-stop-container">
+            <ul id="bus-stop-list"></ul>
+        </div>
+        <div id="map-container">
+            <div id="map"></div>
+        </div>
+    </div>
+-->
+
+<!--
+    <div id="message"></div>
+    <ul id="bus-stop-list"></ul>
+    </div>
+
+    <div id="map-container">
+    <div id="map"></div>
+    </div>
+-->
+
+    <div id="eta-map-container">
+        <div id="eta-display"></div>
+        
+        <div id="map-container">
+            <div id="map"></div>
+        </div>
+    </div>
+
+    
+    <script src="main.js"></script> 
+</body>
+</html>
