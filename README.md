@@ -14,7 +14,6 @@ This project was built using these technologies.
 - Dynamic content
 - SessionStorage to cache data
 - Display map information
-- Fully Responsive (support both smartphone and desktop)
 
 ## Two datasets (open data APL) used
 1️⃣Stop List API (https://data.etabus.gov.hk/v1/transport/kmb/stop)
